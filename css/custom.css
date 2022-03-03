@@ -1,0 +1,180 @@
+.navbar-brand{
+    font-family: serif;
+}
+.collapse navbar-collapse{
+    font-family: serif;
+}
+.carousel-caption{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    left:0;
+    bottom: 0;
+    height: 120px;
+    padding-bottom: 2rem;
+    padding-top: 0.5rem;
+    font-family: serif;
+}
+
+.section-divider{ 
+    margin: 3rem 0;
+}
+
+.footer-section { 
+    width: 100%;
+    float: left;
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+  color: gray;
+    font-family: serif;
+}
+#header{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: black;
+    text-align: center;
+    color: dimgrey;
+    font-family: serif;
+    height: 95px;
+}
+.float-right{
+    float: right;
+}
+
+@media (min-width: 1000px) {
+  .feature-heading {
+    margin-top: 10rem;
+  }
+}
+
+@media (max-width: 540px) {
+    .carouselImg {
+        display: none;
+    }
+    
+}
+
+#container1{
+    float: left;
+    width: 33%;
+    background-color: gray;
+    color: black;
+    height: 450px;
+    padding: 10px;
+    font-family: serif;
+    
+}
+
+#container2{
+    float: right;
+    width: 34%;
+    background-color: gray;
+    color: black;
+    height: 450px;
+    padding: 10px;
+    font-family: serif;
+    padding-bottom: 0.5rem;
+}
+#heading2{
+    padding: 10px;
+    background-color: gray;
+    float: left;
+    width: 33%;
+    height: 450px;
+    color: black;
+    font-family: serif;
+}
+#heading2 img{
+    padding-bottom: 10px;
+    width: 90%;
+    height: 90%;
+}
+
+
+.about{
+    background-color: gray;
+    color: black;
+    font-family: serif;
+}
+.about p{
+    line-height: 20px;
+    padding: 2px;
+    font-size: 15px;
+    font-family: serif;
+}
+#heading1 li{
+    padding: 4px;
+    list-style: none;
+    font-family: serif;
+}
+#heading1{
+    padding: -450px;
+    background-color: black;
+    float: left;
+    width: 50%;
+    color: dimgrey;
+    font-family: serif;
+    height: 400px;
+}
+#container3{
+    float: right;
+    width: 50%;
+    background-color: black;
+    color: dimgrey;
+    padding: -450px;
+    font-family: serif;
+    height: 400px;
+}
+#container3 li{
+    list-style: none;
+}
+
+.offer{
+    padding: 10px;
+    height: 350px;
+    width: 100%;
+    background-color: azure;
+}
+.offer h2{
+    text-align: center;
+    color: cadetblue;
+}
+.offer p{
+    text-align: center;
+    padding: 50px;
+}
+
+
+
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
